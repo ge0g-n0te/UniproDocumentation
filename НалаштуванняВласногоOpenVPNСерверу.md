@@ -14,5 +14,16 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
 ```
 root@***.***.***.***s password:
 ```
+Після успішного підключення повинно з'явитись подібне повідомлення:
+```
+Linux ****************** *.*.*-**-**** #1 SMP PREEMPT_DYNAMIC ****** *.*.***-* (****-**-**) x**_**
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: **** ****  * **:**:** **** from ***.***.***.***
+root@dedicate:~#
+```
 
 2.
