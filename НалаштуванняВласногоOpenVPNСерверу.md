@@ -176,18 +176,14 @@ key-direction 1
 verb 3
 
 <ca>
-PASTE_CA_CRT
 </ca>
 
 <cert>
-PASTE_CLIENT_CRT
 </cert>
 
 <key>
-PASTE_CLIENT_KEY
 </key>
 
 <tls-auth>
-PASTE_TA_KEY
 </tls-auth>
 ```
