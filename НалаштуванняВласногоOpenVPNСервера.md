@@ -180,7 +180,13 @@ echo "net.ipv4.ip_forward=1" > /etc/sysctl.d/99-openvpn.conf
 sysctl --system
 ```
 
-Налаштувати NAT для перенаправлення трафіку клієнтів через серверний інтерфейс:
+Налаштувати Фаєрволу та NAT для перенаправлення трафіку клієнтів через серверний інтерфейс:
+
+```bash
+ufw allow 1194/udp
+ufw allow OpenSSH
+ufw enable
+```
 
 ```bash
 iptables -t nat -A POSTROUTING -s 10.8.0.0/24 -o eth0 -j MASQUERADE
