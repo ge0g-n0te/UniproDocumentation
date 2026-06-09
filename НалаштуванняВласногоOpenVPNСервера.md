@@ -262,12 +262,4 @@ verb 3
 
 ### Підключення до VPN
 
-**Linux:**
-
-```bash
-sudo openvpn --config client.ovpn
-```
-
-**Windows / macOS:**
-
 Відкрити клієнт [OpenVPN Connect](https://openvpn.net/client/) або OpenVPN GUI, імпортувати файл `client.ovpn` та натиснути **Connect**.
